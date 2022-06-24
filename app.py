@@ -31,7 +31,8 @@ df_swapped_to = pd.read_json(
 
 
 st.title("Osmosis Swaps ⚛️")
-"Hi friends, this dashboard has 2 parts."
+"Hi friends, before we begin, TOP RIGHT SETTINGS --> THEME --> LIGHT MODE."
+"this dashboard has 2 parts:"
 "First, an overview swap stats on Osmosis in the past 7 days." 
 "Then, a token deep dive that lets you select a token and monitors its swap transactions in the past 30 days."
 
