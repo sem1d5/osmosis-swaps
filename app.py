@@ -189,8 +189,9 @@ with graphcol3:
 with graphcol4:
 	st.plotly_chart(fig_daily_traders, use_container_width=True)
 
-
-st.plotly_chart(pie_fig)
+graphcol5, graphcol6, graphcol7 = st.columns((1,3,1))
+with graphcol6: 
+	st.plotly_chart(pie_fig)
 
 st.markdown("---")
 
