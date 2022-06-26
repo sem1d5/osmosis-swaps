@@ -135,7 +135,7 @@ fig_daily_median_swap_volume.update_layout(
     plot_bgcolor="ghostwhite")
 
 
-fig_swap_count = px.line(
+fig_swap_count = px.bar(
 	df_selection,
 	x = 'DAY',
 	y = 'DAILY_SWAP_TRANSACTIONS',
@@ -149,7 +149,7 @@ fig_swap_count.update_layout(
     plot_bgcolor="ghostwhite")
 
 
-fig_daily_traders = px.line(
+fig_daily_traders = px.bar(
 	df_selection,
 	x = 'DAY',
 	y = 'DAILY_UNIQUE_TRADERS',
